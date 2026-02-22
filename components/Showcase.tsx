@@ -1,6 +1,7 @@
 import React from "react";
 import { Header } from "./Header";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 export const Showcase = () => {
   return (
@@ -25,8 +26,8 @@ export const Showcase = () => {
               <h3 className="text-gray-300 text-lg md:text-xl lg:text-2xl font-medium mt-4">
                 Multi-dimensional Lifestyle Ecosystem
               </h3>
-              <Button variant={"gradient"} className="mt-4">
-                Join our waitlist
+              <Button asChild variant={"gradient"} className="mt-4">
+                <Link href={"#waitlist-form"}>Join our waitlist</Link>
               </Button>
             </div>
           </div>

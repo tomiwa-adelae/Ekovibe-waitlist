@@ -139,3 +139,7 @@
 		width: 92%;
 	}
 }
+
+html {
+  scroll-behavior: smooth;
+}

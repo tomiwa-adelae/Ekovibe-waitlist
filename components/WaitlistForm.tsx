@@ -70,7 +70,7 @@ export const WaitlistForm = () => {
   }
 
   return (
-    <div className="bg-black text-white py-10">
+    <div id="waitlist-form" className="bg-black text-white py-10">
       <div className="container grid grid-cols-1 lg:grid-cols-2 gap-4">
         {isSubmitted ? (
           <div className="text-center py-12 px-6">
